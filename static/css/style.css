@@ -5,7 +5,10 @@
     url('../fonts/iconfont.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
     url('../fonts/iconfont.svg#iconfont') format('svg'); /* iOS 4.1- */
 }
-
+@font-face{
+    font-family: 'PingFang SC Light';
+    src: url('../fonts/PingFang SC Light.ttf')
+}
 
 .icon-work:before { content: "\eac9"; }
 .icon-project:before { content: "\eaf4"; }
